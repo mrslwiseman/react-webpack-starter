@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server"
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
+    "serve": "webpack-dev-server"
   },
   "dependencies": {
     "html-webpack-plugin": "^2.30.1",
